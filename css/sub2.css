@@ -1,0 +1,38 @@
+
+header{border-bottom: 1px solid rgba(255, 255, 255, .15);}
+#business-section{width: 100%; overflow: hidden;}
+#business-title{position: relative; box-sizing: border-box; width: 100%; height: 500px; background: url(../img_sub2/sub_visual3.jpg); background-size: cover; background-position: center;}
+#business-title h2{position: absolute; top:50%; left: 50%; margin-left: -135px; margin-top: -42px; color: #fff;font-size: 70px;font-weight: 700;}
+#business-title h3{position: absolute; bottom: 0; left: 0; width: 100%; height: 60px; background-color: rgba(0, 0, 0, .33); margin: 0;}
+#business-title h3 a{display: block; position: absolute; top: 0; left: 50%; width: 260px;  height: 100%; margin-left: -130px; background-color: #fff; text-align: center; line-height: 60px; font-size: 18px; font-family: 'ChosunKg';}
+#b-content{max-width: 1300px; background-color: #fff; text-align: center; margin: 0 auto; padding: 80px 20px 95px 20px;}
+#b-content h3{position: relative; font-size: 50px;}
+#b-content h3::after{position: absolute; content: ""; top: -20px; left: 50%; margin-left: -25px; width: 50px; height: 3px; background-color: #e50050;}
+
+#b-content .b-table-wrap {border-collapse: collapse; margin-top: 60px;}
+#b-content .b-table-wrap table{width: 100%;}
+#b-content .b-table-wrap table th{background: rgba(221, 221, 221, .18); padding: 0 45px; text-align: left; border: 1px solid #ddd;}
+#b-content .b-table-wrap thead{position: relative;}
+#b-content .b-table-wrap thead::after{position: absolute; top: 0; left: 0; content: ""; width: 100%; height: 3px; background-color: #e50050;}
+#b-content .b-table-wrap thead th{min-width: 210px; text-align: center;font-size: 18px;background: #363d43; border: 1px solid rgba(255, 255, 255, .4); color: #fff;padding: 17px 0;}
+#b-content .b-table-wrap table td{padding: 17px 35px; border: 1px solid #ddd; text-align: start; font-weight: 550;}
+tbody > tr:first-of-type th br {display: none;}
+tbody > tr:nth-of-type(10) th br {display: none;}
+.b-photo{width: 100%; height: 400px; background: url(../img_sub2/busin_img.jpg); background-size: cover; background-position: center;}
+
+@media all and (max-width:1401px) {
+    #b-content{padding: 80px 60px 95px 60px;}
+}
+@media all and (max-width:1290px) {
+    tbody > tr:nth-of-type(10) th br {display: block;}
+}
+@media all and (max-width:1084px) {
+    tbody > tr:first-of-type th br {display: block;}
+}
+@media all and (max-width:767px) {
+    #b-content{padding: 60px 40px 60px 40px;}
+    #b-content .b-table-wrap thead th{min-width: 0;}
+}
+@media all and (max-width:481px) {
+    #b-content{padding: 60px 20px 60px 20px;}
+}
